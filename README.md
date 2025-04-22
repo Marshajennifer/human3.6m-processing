@@ -2,12 +2,12 @@
 To preprocess and clean Human 3.6m dataset.
 # Human3.6M Dataset Preparation for 2D-to-3D Pose Estimation
 
-This repository provides code and guidance to preprocess the [Human3.6M dataset](http://vision.imar.ro/human3.6m/description.php) and convert it into `.npz` files required for training 2D-to-3D human pose estimation models such as [VideoPose3D](https://github.com/facebookresearch/VideoPose3D).
+This repository provides code and guidance to preprocess the [Human3.6M dataset](http://vision.imar.ro/human3.6m/description.php) and convert it into `.npz` using [VideoPose3D()](https://github.com/facebookresearch/VideoPose3D) and the original dataset was converted to produce 'data_3d_h36m.npz' and 'data_2d_h36m_gt.npz'.
 
 ## 🔧 What this repository does
 
 - Converts raw `.cdf` files (D3_Positions) from Human3.6M into structured NumPy arrays (`.npz`)
-- Projects 3D world coordinates into multiple 2D camera views using intrinsic and extrinsic camera parameters
+- Projects 3D world coordinates into multiple 2D camera views
 - Produces two key files:
   - `data_3d_h36m.npz`: Contains structured 3D pose data (in meters) for each subject and action
   - `data_2d_h36m_gt.npz`: Contains ground-truth 2D pose projections for each camera view
@@ -27,7 +27,7 @@ This repository provides code and guidance to preprocess the [Human3.6M dataset]
 
 
 - **Video Files**  
-Optionally required for training models with visual inputs or for visualization.
+Download from [http://vision.imar.ro/human3.6m/description.php](http://vision.imar.ro/human3.6m/description.php)
 
 ## 📌 Camera Parameters
 
@@ -47,6 +47,5 @@ From the Human3.6M website, the "Poses → D3 Positions" data and the videos wer
 
 ---
 
-Feel free to contribute or raise issues if you face any trouble during setup or conversion.
 
 
