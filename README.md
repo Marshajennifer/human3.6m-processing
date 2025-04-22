@@ -41,6 +41,15 @@ Camera extrinsic and intrinsic parameters are loaded from:
 - 📘 Conversion Utilities: Adapted from [VideoPose3D by Facebook AI Research](https://github.com/facebookresearch/VideoPose3D)
 - 📷 Camera Parameters: [karfly/human36m-camera-parameters](https://github.com/karfly/human36m-camera-parameters)
 
+## 🛠️ Installation
+
+To run the conversion scripts, make sure to install the required dependency:
+
+```bash
+pip install cdflib
+
+Run ```data_preprocessing.ipynb``` to generate npz files.
+
 ## 📝 Notes
 
 From the Human3.6M website, the "Poses → D3 Positions" data and the videos were downloaded. Then, using the tools and structure inspired by [VideoPose3D by Facebook Research](https://github.com/facebookresearch/VideoPose3D/blob/main/DATASETS.md), the original dataset was converted to produce `data_3d_h36m.npz` and `data_2d_h36m_gt.npz`.
