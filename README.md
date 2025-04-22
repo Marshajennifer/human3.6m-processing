@@ -47,8 +47,8 @@ To run the conversion scripts, make sure to install the required dependency:
 
 ```bash
 pip install cdflib
-
-Run ```data_preprocessing.ipynb``` to generate npz files.
+```
+Run `data_preprocessing.ipynb` to generate npz files.
 
 ## 📝 Notes
 
