@@ -2,7 +2,7 @@
 To preprocess and clean Human 3.6m dataset.
 # Human3.6M Dataset Preparation for 2D-to-3D Pose Estimation
 
-This repository provides code and guidance to preprocess the [Human3.6M dataset](http://vision.imar.ro/human3.6m/description.php) and convert it into `.npz` using [VideoPose3D()](https://github.com/facebookresearch/VideoPose3D) and the original dataset was converted to produce 'data_3d_h36m.npz' and 'data_2d_h36m_gt.npz'.
+This repository provides code and guidance to preprocess the [Human3.6M dataset](http://vision.imar.ro/human3.6m/description.php) and convert it into `.npz` using [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) and the original dataset was converted to produce 'data_3d_h36m.npz' and 'data_2d_h36m_gt.npz'.
 
 ## 🔧 What this repository does
 
