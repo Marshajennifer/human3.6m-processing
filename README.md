@@ -52,6 +52,8 @@ pip install cdflib
 ```
 Run `data_preprocessing.ipynb` to generate npz files.
 
+Run `visualization.ipynb` to visualize and plot both 2D and 3D skeleton on video frames.
+
 ## 📝 Notes
 
 From the Human3.6M website, the "Poses → D3 Positions" data and the videos were downloaded. Then, using the tools and structure inspired by [VideoPose3D by Facebook Research](https://github.com/facebookresearch/VideoPose3D/blob/main/DATASETS.md), the original dataset was converted to produce `data_3d_h36m.npz` and `data_2d_h36m_gt.npz`.
