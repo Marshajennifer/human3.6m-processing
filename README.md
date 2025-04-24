@@ -99,7 +99,7 @@ Unlike OpenCV or bundled libraries that hide transformation steps, this notebook
 
 Visualization:
 
-![2D Projection Example](human3.6m-processing/dis.jpg)  
+![2D Projection Example](Marshajennifer/human3.6m-processing/dis.jpg)  
 
 
 ## 📝 Notes
