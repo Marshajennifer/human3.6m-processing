@@ -121,5 +121,8 @@ From the Human3.6M website, the "Poses → D3 Positions" data and the videos wer
 
 ---
 
+Visualization:
+
+https://github.com/Marshajennifer/human3.6m-processing/blob/main/dis.jpg 
 
 
