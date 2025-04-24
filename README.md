@@ -116,7 +116,7 @@ proj_2d = np.stack([u, v], axis=1)
 
 Visualization:
 
-![2D Projection Example]human3.6m-processing/dis.jpg  
+![2D Projection Example](human3.6m-processing/dis.jpg)  
 
 
 ## 📝 Notes
