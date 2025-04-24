@@ -114,6 +114,10 @@ v = fy * y + cy
 # Final 2D projection
 proj_2d = np.stack([u, v], axis=1)
 
+Visualization:
+
+![2D Projection Example]human3.6m-processing/dis.jpg  
+
 
 ## 📝 Notes
 
@@ -121,8 +125,5 @@ From the Human3.6M website, the "Poses → D3 Positions" data and the videos wer
 
 ---
 
-Visualization:
-
-https://github.com/Marshajennifer/human3.6m-processing/blob/main/dis.jpg 
 
 
