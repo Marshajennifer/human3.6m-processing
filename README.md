@@ -97,23 +97,6 @@ Unlike OpenCV or bundled libraries that hide transformation steps, this notebook
 
 ---
 
-### 🧮 Core Equations
-
-```python
-# Step 1: World to Camera (Extrinsics)
-X_cam = R @ X_world.T + t[:, np.newaxis]  # Shape: (3, 17)
-
-# Step 2: Normalize by depth (Z)
-x = X_cam[0] / X_cam[2]
-y = X_cam[1] / X_cam[2]
-
-# Step 3: Convert to pixel coordinates (Intrinsics)
-u = fx * x + cx
-v = fy * y + cy
-
-# Final 2D projection
-proj_2d = np.stack([u, v], axis=1)
-
 Visualization:
 
 ![2D Projection Example](human3.6m-processing/dis.jpg)  
