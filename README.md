@@ -18,6 +18,7 @@ This repository provides code and guidance to preprocess the [Human3.6M dataset]
 |------|-------------|
 | `data_3d_h36m.npz` | 3D joint positions for each subject and action in Human3.6M,(in world coordinate) |
 | `data_2d_h36m_gt.npz` | 2D projections of 3D poses into all 4 camera views using calibrated parameters |
+
 data_2d_h36m_gt.npz is generated from data_3d_h36m.npz by (world coordinate-->camera coordinate-->2D projection).
 
 ## 📁 Dataset Used
